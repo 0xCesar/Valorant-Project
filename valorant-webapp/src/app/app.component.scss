@@ -1,0 +1,28 @@
+header{
+    background-color: var(--grey-color);
+    height: 8%;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  
+    a{
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        text-decoration: none;
+        font-weight: 700;
+    }
+    .left{
+        padding-left: 4vw;
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+        align-items: baseline;
+    }
+    .right{
+        padding-right: 4vw;
+    }
+}
