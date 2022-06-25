@@ -2,12 +2,19 @@
     main{
     height: 80vh;
     width: 100vw;
+    display: flex;
         h1{
             font-family: "Druk Wide Bold";
         }
         title-page{
             margin-left:5vw;
         }
+        player-card{
+            margin-top: 5%;
+            margin-left: 5%;
+        }
+   
+      
 
     }
 }

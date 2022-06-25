@@ -7,7 +7,6 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class AgentsPageComponent implements OnInit {
 
-  @Input() title: string = "Agents";
 
   constructor() { }
 

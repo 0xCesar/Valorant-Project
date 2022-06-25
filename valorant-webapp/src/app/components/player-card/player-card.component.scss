@@ -1,0 +1,47 @@
+:host{
+    .card{
+        position: relative;
+        padding-left: 10%;
+        svg{
+            position: absolute;
+            top: 2vh;
+            left: 0;
+            
+            .player-region{
+                font-size: 1rem;
+                transform: rotate(90deg) translateY(-35%);
+                font-family: "Druk Wide Bold";
+                fill: var(--red-color);
+            }    
+            .player-name{
+                transform: rotate(90deg) translateY(-22%);
+                font-family: "Druk Wide Bold";
+                fill: transparent;
+                stroke-width: 2px;
+                stroke: white;
+                text-transform: uppercase;
+            }
+            }
+        }
+ 
+    .champion{
+        width: 200px;
+        background: linear-gradient(to bottom right, #8f0a0a00 7px, var(--grey-color) 4px);
+        
+    }
+    .ability{
+        background-color: var(--grey-color);
+        border: solid 1px white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        align-items: center;
+        transform: translate(10%, -80%);
+        img{
+            
+         width: 40px;
+
+        }
+    }
+
+}
