@@ -1,0 +1,156 @@
+[
+    {
+        "id": 1,
+        "name": "Jett",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Raze",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Breach",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Omen",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Brimstone",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Phoenix",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Sage",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Sova",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Viper",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Cypher",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Reyna",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Killjoy",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Skye",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Yoru",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Astra",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Kay/o",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 17,
+        "name": "Chamber",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 18,
+        "name": "Neon",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "Fade",
+        "skills" : 
+        [
+            "Brasier","Hand","Something","Something"
+        ]
+    }
+    
+    
+]

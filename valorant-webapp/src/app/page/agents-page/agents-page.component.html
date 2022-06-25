@@ -1,4 +1,5 @@
 <main>
 <title-page title="agents"></title-page>
-<player-card></player-card>
+<player-card *ngFor="let player of players" [PlayerName]="player.name" [PlayerRegion]="player.region"></player-card>
+
 </main>

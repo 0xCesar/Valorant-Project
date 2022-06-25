@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'player-card',
@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PlayerCardComponent implements OnInit {
 
-  constructor() { }
+  @Input() PlayerRegion: string = 'United Kingdom';
+  @Input() PlayerName: string = 'phoenix';
+  PlayerImg: string =  "assets/player/player-" + this.PlayerName + ".png";
+  constructor() { 
+   
+  }
+ 
 
   ngOnInit(): void {
+    this.PlayerImg = "assets/player/player-" + this.PlayerName + ".png";
   }
 
 }
