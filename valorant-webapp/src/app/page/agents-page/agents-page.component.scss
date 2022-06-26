@@ -8,13 +8,36 @@
         }
         title-page{
             margin-left:5vw;
+            width: 20vw;
         }
         player-card{
-            margin-top: 5%;
-            margin-left: 5%;
+    
+            margin-left: 100px;
         }
+     
+        .container-player{
+            .separator{
+                width: 5vw;
+            }
+            .players{
+                overflow: scroll;
+                display: flex;
    
+                
+            }
+            margin-left: 2vw;
+            width: 100%;
+            overflow: hidden;
+            margin-top: 10vh;
+      
+        }
       
 
+    }
+
+
+    ultimate-card{
+        width: 20vw;
+        z-index: 5;
     }
 }

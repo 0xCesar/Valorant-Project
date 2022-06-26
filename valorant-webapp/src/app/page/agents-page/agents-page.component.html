@@ -1,5 +1,12 @@
 <main>
 <title-page title="agents"></title-page>
-<player-card *ngFor="let player of players" [PlayerName]="player.name" [PlayerRegion]="player.region"></player-card>
+<div class="container-player">
+    <div class="players">
+        <player-card *ngFor="let player of players" [PlayerName]="player.name" [PlayerRegion]="player.region"></player-card>
+    </div>
+</div>
+
+
 
 </main>
+<!--<ultimate-card></ultimate-card>-->

@@ -12,7 +12,7 @@ body{
     --grey-color : #1F2326;
     --red-color : #FF4656;
     /* Fonts  */
-  
+    
   
     background: var(--red-color);
     #bg{
@@ -21,4 +21,8 @@ body{
         width: 100vw;
         height: 100vh;
     }
+   
+}
+.flex{
+    display: flex;
 }

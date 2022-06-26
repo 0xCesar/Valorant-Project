@@ -2,153 +2,172 @@
     {
         "id": 1,
         "name": "Jett",
+        "region": "South Korea",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "UPDRAFT","TAILWIND","CLOUDBURST","BLADE STORM"
         ]
     },
     {
         "id": 2,
         "name": "Raze",
+        "region": "Brazil",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "BLAST PACK","PAINT SHELLS","BOOM BOT","SHOWSTOPPER"
         ]
     },
     {
         "id": 3,
         "name": "Breach",
+        "region": "Sweden",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "FLASHPOINT","FAULT LINE","AFTERSHOCK","ROLLING THUNDER"
         ]
     },
     {
         "id": 4,
         "name": "Omen",
+        "region": "Shadows",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "PARANOIA","DARK COVER","SHROUDED STEP","FROM THE SHADOWS"
         ]
     },
     {
         "id": 5,
         "name": "Brimstone",
+        "region": "United States",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "INCENDIARY","SKY SMOKE","STIM BEACON","ORBITAL STRIKE"
         ]
     },
     {
         "id": 6,
         "name": "Phoenix",
+        "region": "United Kingdom",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "CURVEBALL","HOT HANDS","BLAZE","RUN IT BACK"
         ]
     },
     {
         "id": 7,
         "name": "Sage",
+        "region": "China",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "SLOW ORB","HEALING ORB","BARRIER ORB","RESURRECTION"
         ]
     },
     {
         "id": 8,
         "name": "Sova",
+        "region": "Russia",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "SHOCK BOLT","RECON BOLT","OWL DRONE","HUNTER’S FURY"
         ]
     },
     {
         "id": 9,
         "name": "Viper",
+        "region": "United States",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "POISON CLOUD","TOXIC SCREEN","SNAKE BITE","VIPER’S PIT"
         ]
     },
     {
         "id": 10,
         "name": "Cypher",
+        "region": "Marocco",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "CYBER CAGE","SPYCAM","TRAPWIRE","NEURAL THEFT"
         ]
     },
     {
         "id": 11,
         "name": "Reyna",
+        "region": "Mexico",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "DEVOUR","DISMISS","LEER","EMPRESS"
         ]
     },
     {
         "id": 12,
         "name": "Killjoy",
+        "region": "Germany",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "ALARMBOT","TURRET","NANOSWARM","LOCKDOWN"
         ]
     },
     {
         "id": 13,
         "name": "Skye",
+        "region": "Australia",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "TRAILBLAZER","GUIDING LIGHT","REGROWTH","SEEKERS"
         ]
     },
     {
         "id": 14,
         "name": "Yoru",
+        "region": "Japan",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "BLINDSIDE","GATECRASH","FAKEOUT","DIMENSIONAL DRIFT"
         ]
     },
     {
         "id": 15,
         "name": "Astra",
+        "region": "Ghana",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "NOVA PULSE","NEBULA","GRAVITY WELL","ASTRAL FORM / COSMIC DIVIDE"
         ]
     },
     {
         "id": 16,
-        "name": "Kay/o",
+        "name": "Kayo",
+        "region": "N/A",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "FLASH/DRIVE","ZERO/POINT"," ","NULL/CMD"
         ]
     },
     {
         "id": 17,
         "name": "Chamber",
+        "region": "France",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "HEADHUNTER","RENDEZVOUS","TRADEMARK","TOUR DE FORCE"
         ]
     },
     {
         "id": 18,
         "name": "Neon",
+        "region": "Philippine",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "RELAY BOLT","HIGH GEAR","FAST LANE","OVERDRIVE"
         ]
     },
     {
         "id": 19,
         "name": "Fade",
+        "region": "Turkey",
         "skills" : 
         [
-            "Brasier","Hand","Something","Something"
+            "SEIZE","HAUNT","PROWLER","NIGHTFALL"
         ]
     }
     
