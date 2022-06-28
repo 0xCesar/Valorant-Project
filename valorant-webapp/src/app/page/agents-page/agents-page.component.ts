@@ -24,11 +24,16 @@ export class AgentsPageComponent implements OnInit {
   }
 
   selectPlayer(id: number){
-    let clearId = id-1;
-  
-      this.selectedPlayer = this.players[id-1].name;
+      let clearId = id-1;
+      if(this.lastSelectedPlayerID === clearId){
+        this.selectedPlayer = '';
+        this.lastSelectedPlayerID = -1;
+      }else{
+        this.selectedPlayer = this.players[id-1].name;
     
-      this.lastSelectedPlayerID = clearId;
+        this.lastSelectedPlayerID = clearId;
+      }
+    
       
   }
 }

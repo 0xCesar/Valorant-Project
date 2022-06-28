@@ -38,6 +38,9 @@
         svg{
             min-width: max-content;
             width:150px;
+            image{
+                filter: brightness(0);
+            }
         }
     }
 }

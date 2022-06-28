@@ -1,4 +1,8 @@
 :host{
+
+    .card:hover{
+        cursor: pointer;
+    }
     .card{
         position: relative;
         padding-left: 10%;
