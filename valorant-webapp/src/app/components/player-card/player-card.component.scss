@@ -6,6 +6,7 @@
             position: absolute;
             top: 2vh;
             left: 0;
+          
             
             .player-region{
                 font-size: 1rem;
@@ -26,9 +27,11 @@
  
     .champion{
         width: 200px;
-        background: linear-gradient(to bottom right, #8f0a0a00 7px, var(--grey-color) 4px);
-        
+      //  background: linear-gradient(to bottom right, #8f0a0a00 7px, var(--grey-color) 4px);
+      background: var(--grey-color);
+      
     }
+    
     .ability{
         background-color: var(--grey-color);
         border: solid 1px white;
@@ -38,11 +41,35 @@
         padding: 10px;
         align-items: center;
         transform: translate(10%, -80%);
+       
         img{
             
          width: 40px;
-
+         filter: brightness(100);
+        
         }
+        
     }
 
+
+        .selected{
+            .champion{
+                background: #F8F8F8;
+                border: solid 2px var(--grey-color);
+            }
+            .ability{
+                background-color: #F8F8F8;
+                border: solid 1px var(--grey-color);
+                img{
+                    filter: brightness(0);
+                }
+            }
+            svg{
+                .player-name{
+                    stroke: var(--grey-color);
+                }
+            }
+          
+
+        }
 }

@@ -1,0 +1,43 @@
+:host{
+    .skill-card{
+       // min-width: 400px;
+       // max-width: 600px;
+       // height: 160px;
+        background: #F8F8F8;
+        border: 1px solid var(--grey-color);
+        padding-left: 20px;
+        img{
+          //  width: 200px;
+            
+        }
+        h5{
+            font-family: "Druk Wide Bold";
+            color: #C4C4C4;
+            font-size: 1.5rem;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+        .skill-name{
+            font-family: "Druk Wide Bold";
+            font-size: 0.8rem;
+        }
+        .skill-description{
+            font-family: Montserrat;
+            font-size: 0.8rem;
+            width: 300px;
+        }
+        .text{
+           //s max-width: fit-content;
+           // min-width: 250px;
+            height: 185px;
+            overflow: hidden;
+            
+       
+
+        }
+        svg{
+            min-width: max-content;
+            width:150px;
+        }
+    }
+}

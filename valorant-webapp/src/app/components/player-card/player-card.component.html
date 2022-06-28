@@ -1,4 +1,4 @@
-<div class="card">
+<div class="card" [ngClass]="{'selected': selectedPlayer}">
     <svg viewBox="0 0 300 500" xmlns="http://www.w3.org/2000/svg">
         <text x="0" y="100" font-size="1.5rem" class="player-region">
             {{PlayerRegion}}
@@ -10,10 +10,10 @@
      
     <img src="{{PlayerImg}}" class="champion" alt="image player" />
 
-    <div class="ability">
-        <img src="assets/player/phoenix/bullet.svg" />
-        <img src="assets/player/phoenix/hand.svg" />
-        <img src="assets/player/phoenix/revenge.svg" />
-        <img src="assets/player/phoenix/brasier.svg" />
+    <div class="ability" >
+        <img src="{{playerskill1}}"  />
+        <img src="{{playerskill2}}" />
+        <img src="{{playerskill3}}" />
+        <img src="{{playerskill4}}" />
     </div>
 </div>

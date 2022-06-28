@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { AgentsPageComponent } from './page/agents-page/agents-page.component';
 import { TitlePageComponent } from './page/title-page/title-page.component';
 import { PlayerCardComponent } from './components/player-card/player-card.component';
-import { UltimateCardComponent } from './components/ultimate-card/ultimate-card.component';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UltimateCardComponent } from './components/ultimate-card/ultimate-card.
     AgentsPageComponent,
     TitlePageComponent,
     PlayerCardComponent,
-    UltimateCardComponent
+    SkillCardComponent
+    
   ],
   imports: [
     BrowserModule,

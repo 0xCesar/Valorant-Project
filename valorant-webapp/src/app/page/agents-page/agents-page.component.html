@@ -2,11 +2,16 @@
 <title-page title="agents"></title-page>
 <div class="container-player">
     <div class="players">
-        <player-card *ngFor="let player of players" [PlayerName]="player.name" [PlayerRegion]="player.region"></player-card>
+        <player-card *ngFor="let agent of players" [PlayerName]="agent.name" [PlayerRegion]="agent.region" [PlayerSkills]="agent.skills" [selectedPlayer]="(selectedPlayer === agent.name)" (click)="selectPlayer(agent.id)"></player-card>
     </div>
 </div>
 
 
 
 </main>
-<!--<ultimate-card></ultimate-card>-->
+<div *ngIf="selectedPlayer != ''" class="container-skill">
+    <div class="flex skills">
+        <skill-card *ngFor="let skills of players[lastSelectedPlayerID].skills" [TypeSkill]="skills.type" [TitleSkill]="skills.name" [DescriptionSkill]="skills.descritpion"></skill-card>
+    </div>
+</div>
+
