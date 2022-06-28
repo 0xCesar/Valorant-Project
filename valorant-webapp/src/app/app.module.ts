@@ -7,6 +7,7 @@ import { AgentsPageComponent } from './page/agents-page/agents-page.component';
 import { TitlePageComponent } from './page/title-page/title-page.component';
 import { PlayerCardComponent } from './components/player-card/player-card.component';
 import { SkillCardComponent } from './components/skill-card/skill-card.component';
+import { WeaponPageComponent } from './page/weapon-page/weapon-page.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { SkillCardComponent } from './components/skill-card/skill-card.component
     AgentsPageComponent,
     TitlePageComponent,
     PlayerCardComponent,
-    SkillCardComponent
+    SkillCardComponent,
+    WeaponPageComponent
     
   ],
   imports: [
